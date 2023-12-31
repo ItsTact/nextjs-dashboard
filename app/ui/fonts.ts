@@ -1,10 +1,7 @@
-import { Roboto, Abel } from 'next/font/google';
+import { Noto_Sans } from 'next/font/google';
 
-export const inter = Roboto({
-  weight: ['100', '300', '400', '500', '700', '900'],
+export const noto_sans = Noto_Sans({
+  weight: ['100', '200', '300', '400', '500', '700', '800', '900'],
   subsets: ['latin'],
-});
-export const lusitana = Abel({
-  weight: ['400'],
-  subsets: ['latin'],
+  style: ['normal', 'italic']
 });
